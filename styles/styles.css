@@ -1,0 +1,122 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #243757;
+    color: #fff;
+    text-align: left;
+    padding: 50px 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: left;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    transition: transform 0.2s;
+}
+
+.projeto {
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    background-color: #243757;
+    color: #fff;
+    transition: transform 0.2s;
+}
+
+.projeto:hover {
+    transform: scale(1.05);
+}
+
+.bg-primary-custom {
+    background-color: #3a5f6f !important;
+}
+
+.text-primary-custom {
+    color: #3a5f6f !important;
+}
+
+.btn-custom {
+    background-color: #3a5f6f;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.btn-custom:hover {
+    background-color: #3a5f6f;
+}
+
+.footer {
+    background-color: #243757;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.theme-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+.custom-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.custom-card.light {
+    background-color: #f4f4f4;
+    color: #000;
+}
+
+.custom-card.dark {
+    background-color: #222;
+    color: #fff;
+}
+
+#toggleButton {
+    background-color: midnightblue;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+    z-index: 2;
+}
+
+#toggleButton:hover {
+    background: #6976f0;
+    box-shadow: 8px 8px 40px rgba(0, 0, 0, 0.3);
+}
+
+.dark-theme {
+    background-color: #222;
+    color: #fff;
+}
+
+.light-background {
+    background-color: #f4f4f4;
+}
+
+.dark-background {
+    background-color: #222;
+    color: #fff;
+}
